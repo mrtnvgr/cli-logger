@@ -6,6 +6,7 @@ description = "Basic logger with oxidized batteries included"
 license = "GPL-3.0"
 repository = "https://github.com/mrtnvgr/cli-logger"
 keywords = ["cli", "log", "logger", "logging"]
+categories = ["development-tools::debugging"]
 
 [dependencies]
 cli-panics = "0.1.0"
