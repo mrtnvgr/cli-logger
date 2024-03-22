@@ -1,6 +1,6 @@
 [package]
 name = "cli-logger"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Basic logger with oxidized batteries included"
 license = "GPL-3.0"
@@ -10,5 +10,5 @@ categories = ["development-tools::debugging"]
 
 [dependencies]
 cli-panics = "0.1.0"
-env_logger = "0.10.0"
-log = "0.4.18"
+env_logger = "0.10"
+log = "0.4"
