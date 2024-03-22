@@ -20,7 +20,7 @@ fn init_logger() {
             _ => "?",
         };
 
-        writeln!(buf, "{} {}", level_style.value(level), record.args())
+        writeln!(buf, "[{}] {}", level_style.value(level), record.args())
     });
 
     builder.filter_level(LevelFilter::Info);
